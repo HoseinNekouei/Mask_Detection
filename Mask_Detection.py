@@ -5,8 +5,8 @@ import numpy as np
 cap = cv.VideoCapture(0)
 obj_file= 'obj.names'
 obj_classes = []
-net_config = 'cfg/yolov3_training.cfg'
-net_weights = 'cfg/yolov3_training_last.weights'
+net_config = 'cfg/yolov4_training.cfg'
+net_weights = 'cfg/yolov4_training_final.weights'
 blob_size = 320
 confidence_threshold = 0.5
 nms_threshold = 0.3
